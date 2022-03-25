@@ -1,0 +1,30 @@
+.hero {
+    min-height: 100vh;
+}
+
+.container {
+    height: 80vh;
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+input {
+    border: 0;
+    outline: 2.5px solid #333;
+    outline-offset: none;
+    background: transparent;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
